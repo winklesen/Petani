@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    tools:context=".fragment.MustardGreenFragment">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refresh_mustard_green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ProgressBar
+                android:id="@+id/pb_circle_mustard_green"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="275dp"
+                android:layout_height="275dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/progress_container"
+                android:max="600"
+                android:progressDrawable="@drawable/progress_indicator"
+                android:rotation="-90"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_date_end_mustard_green"
+                style="@style/TextAppearance.AppCompat.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/belum_dipanen"
+                android:textColor="@color/colorPrimary"
+                app:layout_constraintBottom_toTopOf="@+id/tv_time_mustard_green"
+                app:layout_constraintEnd_toEndOf="@+id/tv_time_mustard_green"
+                app:layout_constraintStart_toStartOf="@+id/tv_time_mustard_green" />
+
+            <TextView
+                android:id="@+id/tv_time_mustard_green"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time"
+                android:textColor="@color/colorPrimary"
+                android:textSize="40sp"
+                app:layout_constraintBottom_toBottomOf="@+id/pb_circle_mustard_green"
+                app:layout_constraintEnd_toEndOf="@+id/pb_circle_mustard_green"
+                app:layout_constraintStart_toStartOf="@+id/pb_circle_mustard_green"
+                app:layout_constraintTop_toTopOf="@+id/pb_circle_mustard_green" />
+
+            <Button
+                android:id="@+id/btn_start_mustard_green"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/mulai"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/btn_history_mustard_green"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pb_circle_mustard_green" />
+
+            <Button
+                android:id="@+id/btn_history_mustard_green"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/riwayat"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/btn_start_mustard_green"
+                app:layout_constraintTop_toBottomOf="@+id/pb_circle_mustard_green" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+    
+</ScrollView>

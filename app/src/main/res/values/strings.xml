@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Petani</string>
+    <string name="about">Tentang</string>
+    <string name="perkiraan_panen">Perkiraan Panen</string>
+    <string name="time">00:00:00</string>
+    <string name="item_humidity">%1$d ph</string>
+    <string name="riwayat">Riwayat</string>
+    <string name="mulai">Mulai</string>
+    <string name="selesai">Selesai</string>
+    <string name="panen_title">Panen</string>
+    <string name="siap_panen">SIAP PANEN</string>
+    <string name="belum_dipanen">Belum dipanen</string>
+    <string name="panen_desc">Tanaman %1$s sudah siap dipanen!</string>
+    <string name="kelembapan">Kelembapan</string>
+    <string name="waktu">Waktu</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="riwayat_penyiraman">Riwayat Penyiraman</string>
+
+    <!--About-->
+    <string name="our_team">
+        TEI
+        \n\t-Alfian Dwi Susanto
+        \n\t-Assaufi Anggie Anggela Anggraeni
+        \n\t-Dwi Indra
+        \n\t-Mahran Mawarid
+        \n\t-Putri Dwi Angelina
+        \n\t-Robbiattul Hadawiah
+        \n\t-Suhendra
+        \nMM
+        \n\t- Barokah Ath Thariq
+        \n\t- Hiratsani Rabi
+        \n\t- Nindito Ramadhani
+        \n\t- Radjasa Wahyu Pratama
+        \n\t- Samuel Willem Alvito
+        \nRPL
+        \n\t- M. Hajid Alakthar
+        \n\t- Samuel B. Jeffersen
+    </string>
+    <string name="our_team_head">Our Team</string>
+    <string name="versi">Beta Version 0.1</string>
+    <string name="smktarunabhakti_net">smktarunabhakti.net</string>
+</resources>
