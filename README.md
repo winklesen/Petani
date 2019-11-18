@@ -1,2 +1,2 @@
 # Petani
-Aplikasi monitoring kelembapan, dan waktu panen tanaman.
+Android application for monitoring plant moisture, and harvest time
